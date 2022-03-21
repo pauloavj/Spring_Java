@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class FirstController {
     @GetMapping("/greeting")
-    public String echo() {
+    public String greeting() {
         return "Your name, with an very creative greeting text!";
     }
 
